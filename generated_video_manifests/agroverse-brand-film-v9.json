@@ -56,7 +56,14 @@
       "source_sha256": null,
       "source_path": "derived from stills; NOT one of the 5 accepted stills",
       "confidence": "unknown",
-      "method": "corr<=0.31 vs all accepted stills and all 12 raw /media MOVs; no build script retained for 03_people.mp4 (sha 4feaf7aea55ea91b)"
+      "method": "corr<=0.31 vs all accepted stills and all 12 raw /media MOVs; no build script retained for 03_people.mp4 (sha 4feaf7aea55ea91b)",
+      "acceptance": {
+        "decision": "keep_as_is",
+        "decided_by": "Gary Teh (governor)",
+        "decided_on": "2026-11-11",
+        "scope": "Stays in v9. No rebuild, no replacement, no further tracing required for this cut.",
+        "does_not_imply": "Not evidence of provenance. Does NOT clear this beat for re-use in future compilations or for paid media."
+      }
     },
     {
       "beat": 4,
@@ -106,6 +113,16 @@
     "endcard_text_transcribed": "Restoring 10,000 hectares of Amazon rainforest",
     "third_party_burned_in_text": "none"
   },
+  "governor_decisions": [
+    {
+      "date": "2026-11-11",
+      "governor": "Gary Teh",
+      "decision": "Keep the farmer beat (beat 3) as-is in v9.",
+      "rationale": "Governor elected to retain the beat rather than replace or trace it.",
+      "effect_on_provenance": "none - confidence remains 'unknown'",
+      "recorded_by": "Sophia Truesight (admin+sophia@truesight.me)"
+    }
+  ],
   "clearance_flags": [
     "beat 2 (aerial) provenance unverified — do not use in paid media until source is confirmed",
     "beats 3 and 4 provenance unverified — trace before re-use",
