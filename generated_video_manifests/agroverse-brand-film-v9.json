@@ -1,0 +1,118 @@
+{
+  "manifest_version": "1.0",
+  "entity_type": "generated",
+  "generated_id": "agroverse-brand-film-v9",
+  "title": "Agroverse — Restoring 10,000 Hectares of Amazon Rainforest (Brand Film v9)",
+  "version": "v9",
+  "generated_at": "2026-11-11",
+  "artifact": {
+    "sha256": "a50078033c46aabcb46586969c94113105b1f84caff2f2cb33e48fbed96420e3",
+    "filename": "V9_A.mp4",
+    "duration_seconds": 12.542,
+    "frames": 301,
+    "resolution": "1280x720",
+    "fps": 24,
+    "has_audio": true,
+    "size_bytes": 8690000
+  },
+  "youtube": {
+    "yt_id": "vlZLzXQpIOs",
+    "url": "https://www.youtube.com/watch?v=vlZLzXQpIOs",
+    "channel": "admin@truesight.me",
+    "privacy": "public",
+    "marked_generated": true
+  },
+  "is_generated": true,
+  "is_raw_footage": false,
+  "raw_source_repository": "TrueSightDAO/farm-media-raw",
+  "pipeline_reference": "agentic_ai_context/MEDIA_ARCHIVE_PIPELINE.md",
+  "lineage": [
+    {
+      "beat": 1,
+      "label": "chocolate bar",
+      "in": 0.0,
+      "out": 3.0,
+      "source_sha256": "fdd1e8f3d925762d478ed484a17436f5f7c8036dd7e9720f77cbc3f343c22181",
+      "source_path": "farm still S1_BARPHOTO.jpg",
+      "confidence": "verified",
+      "method": "image similarity vs beat frame, corr=0.918"
+    },
+    {
+      "beat": 2,
+      "label": "aerial — Amazon river + rainforest",
+      "in": 2.5,
+      "out": 4.0,
+      "source_sha256": null,
+      "source_path": null,
+      "confidence": "unknown",
+      "method": "no source record found; metadata stripped; no neofloresta/drone reference; no matching raw MOV on /media",
+      "provenance_state": "UNVERIFIED — clearance required before paid/public distribution"
+    },
+    {
+      "beat": 3,
+      "label": "farmer speaking to camera",
+      "in": 3.5,
+      "out": 6.0,
+      "source_sha256": null,
+      "source_path": "derived from stills; NOT one of the 5 accepted stills",
+      "confidence": "unknown",
+      "method": "corr<=0.31 vs all accepted stills and all 12 raw /media MOVs; no build script retained for 03_people.mp4 (sha 4feaf7aea55ea91b)"
+    },
+    {
+      "beat": 4,
+      "label": "reforestation saplings",
+      "in": 5.5,
+      "out": 8.0,
+      "source_sha256": null,
+      "source_path": "derived from stills; NOT one of the 5 accepted stills",
+      "confidence": "unknown",
+      "method": "corr<=0.31 vs all accepted stills and all 12 raw /media MOVs; no build script retained for 04_plot.mp4 (sha ef5b0c9580510fb2)"
+    },
+    {
+      "beat": 5,
+      "label": "Theobroma cacao pods on tree",
+      "in": 7.5,
+      "out": 10.0,
+      "source_sha256": "585fd4af1574b22bd29f63e02c7a64ff23defbc0aedfe8c423fc878b8aaef8ae",
+      "source_path": "/media/cvp/IMG_7654.MOV",
+      "in_point": 6.5,
+      "out_point": 9.0,
+      "confidence": "verified",
+      "method": "build_a4e.sh source record"
+    },
+    {
+      "beat": 6,
+      "label": "brand endcard",
+      "in": 9.5,
+      "out": 12.542,
+      "source_sha256": null,
+      "source_path": "generated — mk_a8.py (PIL)",
+      "confidence": "verified",
+      "method": "fully generated: #ffffff field, gold emblem upscaled from 192px favicon, Liberation Sans type"
+    }
+  ],
+  "music": {
+    "source_sha256": null,
+    "filename": "bed_A_kalimba.wav",
+    "origin": "original composition, DAO-owned (procedural)",
+    "licence": "DAO-owned — no third-party rights, no Content ID exposure",
+    "loudness_lufs": -14.7,
+    "peak_dbfs": -5.3
+  },
+  "qc": {
+    "model": "gemini-3.8-flash",
+    "verdict": "PASS",
+    "quality_problems": [],
+    "endcard_text_transcribed": "Restoring 10,000 hectares of Amazon rainforest",
+    "third_party_burned_in_text": "none"
+  },
+  "clearance_flags": [
+    "beat 2 (aerial) provenance unverified — do not use in paid media until source is confirmed",
+    "beats 3 and 4 provenance unverified — trace before re-use",
+    "10,000 hectares is a mission TARGET, not hectares already restored"
+  ],
+  "reuse_guard": {
+    "note": "Before compiling a new video, query this manifest and all siblings in this directory to avoid repeating a source beat.",
+    "reserved_sources": ["IMG_7654.MOV@6.5-9.0", "S1_BARPHOTO.jpg"]
+  }
+}
