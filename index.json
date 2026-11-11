@@ -1,0 +1,28 @@
+{
+  "index_version": "1.0",
+  "description": "Registry of generated video deliverables. One row per archived video. See README for schema.",
+  "generated_videos": [
+    {
+      "generated_id": "agroverse-brand-film-v9",
+      "title": "Agroverse — Restoring 10,000 Hectares of Amazon Rainforest (Brand Film v9)",
+      "entity_type": "generated",
+      "version": "v9",
+      "date": "2026-11-11",
+      "manifest": "generated_video_manifests/agroverse-brand-film-v9.json",
+      "yt_id": "vlZLzXQpIOs",
+      "url": "https://www.youtube.com/watch?v=vlZLzXQpIOs",
+      "privacy": "public",
+      "marked_generated": true,
+      "duration_seconds": 12.542,
+      "resolution": "1280x720",
+      "frames": 301,
+      "sha256": "a50078033c46aabcb46586969c94113105b1f84caff2f2cb33e48fbed96420e3",
+      "beats_total": 6,
+      "beats_verified": 3,
+      "beats_unknown": 3,
+      "clearance_required": true,
+      "music": "original, DAO-owned",
+      "notes": "Beats 2 (aerial), 3 (farmer) and 4 (saplings) have unverified provenance; blocked from paid use until traced. 10,000 hectares is a mission target, not a completed figure."
+    }
+  ]
+}
