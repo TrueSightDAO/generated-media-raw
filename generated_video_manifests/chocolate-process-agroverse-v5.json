@@ -1,0 +1,200 @@
+{
+  "entity_type": "generated",
+  "generated_id": "chocolate-process-agroverse-v5",
+  "title": "Cacao to Chocolate Bar - single estate process, Bahia Brazil (Agroverse)",
+  "version": "v5",
+  "variant": "agroverse",
+  "date": "2026-11-26",
+  "rung": "master",
+  "is_raw_footage": false,
+  "artifact": {
+    "filename": "chocolate-process-agroverse-v5-master.mp4",
+    "sha256": "b44061cd5b61babffdfdf915deaa8f8e4b3fc965d926d2c0a04634e41abc0950",
+    "duration_seconds": 54.522,
+    "frames": 1636,
+    "resolution": "1080x1920",
+    "codec": "h264/aac",
+    "audio": "original clip audio preserved, mean -24.4 dB"
+  },
+  "youtube": {
+    "yt_id": null,
+    "url": null,
+    "privacy": "public",
+    "marked_generated": true,
+    "title_planned": "[GENERATED] Cacao to Chocolate Bar - single estate process, Bahia Brazil (Agroverse)",
+    "status": "pending_upload_limit",
+    "blocked_reason": "uploadLimitExceeded - YouTube daily upload limit reached 2026-11-26T11:47Z; resets 07:05 UTC",
+    "note": "First attempt rejected invalidDescription for HTML angle brackets ('->'); fixed by using U+2192. Retry after quota reset."
+  },
+  "frame_capture": {
+    "path": "frame_captures/chocolate-process-agroverse-v5-frame0.jpg",
+    "sha256": "200100048d76110170842e2736f0a7b48abbfc19152c04656bae34db2d93f44e",
+    "repo": "TrueSightDAO/generated-media-raw",
+    "url": "https://github.com/TrueSightDAO/generated-media-raw/blob/main/frame_captures/chocolate-process-agroverse-v5-frame0.jpg",
+    "resolution": "1080x1920",
+    "bytes": 439735,
+    "note": "First frame of the encoded master. Carries a human (grove open) per MAP gate 6."
+  },
+  "instagram": {
+    "url": "https://www.instagram.com/reel/DgNAp8ihMM8/",
+    "published_at": "2026-11-26",
+    "note": "Governor-published. Caption names Oscar's farm, Bahia; cut also draws on fazenda-santa-ana-bahia and facility-santos-chocolate-factory - lineage is authoritative."
+  },
+  "lineage": [
+    {
+      "beat": 1,
+      "label": "grove_open",
+      "source_path": "oscar-bahia/IMG_2189.mp4",
+      "source_sha256": "87b778427ad47de689dfd96105ff7e245063c42bbd5b067184cec4b89d431d32",
+      "in_point": 0.0,
+      "out_point": 2.5,
+      "confidence": "verified"
+    },
+    {
+      "beat": 2,
+      "label": "pod_on_tree",
+      "source_path": "fazenda-santa-ana-bahia/IMG_8185.mp4",
+      "source_sha256": "c895d0cbf045806097f29a2d4f1570521dc957714fb574a7b9f3f71f7c5c3dcd",
+      "in_point": 2.4,
+      "out_point": 6.4,
+      "confidence": "verified"
+    },
+    {
+      "beat": 3,
+      "label": "harvest",
+      "source_path": "fazenda-santa-ana-bahia/IMG_8164.mp4",
+      "source_sha256": "3f02d1e2635bc0681e547559881cd6b4ba1b49c0eba0653bb2a80a57eef05761",
+      "in_point": 43.0,
+      "out_point": 47.0,
+      "confidence": "verified"
+    },
+    {
+      "beat": 4,
+      "label": "break_pod",
+      "source_path": "oscar-bahia/IMG_2200.mp4",
+      "source_sha256": "59d3a608030862a84542e0d5e14b98f9f329735d9dec2cf367d2cf355a2cca88",
+      "in_point": 5.49,
+      "out_point": 9.49,
+      "confidence": "verified"
+    },
+    {
+      "beat": 5,
+      "label": "extract",
+      "source_path": "fazenda-santa-ana-bahia/IMG_8156.mp4",
+      "source_sha256": "719b46ad38f3ef21977ad3f1e837abb43c641edbd34c2fbc06871349a9f0b5b1",
+      "in_point": 14.47,
+      "out_point": 18.47,
+      "confidence": "verified"
+    },
+    {
+      "beat": 6,
+      "label": "ferment",
+      "source_path": "fazenda-santa-ana-bahia/IMG_8110.mp4",
+      "source_sha256": "eaf7169ec6a926e6b1b2cd7f78d0aa040300616bdc1fdd12ae436e183d8ef7c1",
+      "in_point": 4.89,
+      "out_point": 8.89,
+      "confidence": "verified"
+    },
+    {
+      "beat": 7,
+      "label": "dry",
+      "source_path": "cleide/IMG_4877.mp4",
+      "source_sha256": "efb399959381064b950acc2cd2680748bfc7fbcd06471aa5ab0d99d26aa7c339",
+      "in_point": 12.0,
+      "out_point": 16.0,
+      "confidence": "verified"
+    },
+    {
+      "beat": 8,
+      "label": "roast",
+      "source_path": "facility-santos-chocolate-factory/IMG_2437.MOV",
+      "source_sha256": "8d18a75549e13b249cb3c063e0aaa99543358e2c04a4b620004fc790ecd0fdc9",
+      "in_point": 25.37,
+      "out_point": 29.37,
+      "confidence": "verified"
+    },
+    {
+      "beat": 9,
+      "label": "winnow_in",
+      "source_path": "facility-santos-chocolate-factory/IMG_2506.MOV",
+      "source_sha256": "9503d930e9eb9e3623bc69c8843a3869447669a51457f896b96145f4fec648c3",
+      "in_point": 8.61,
+      "out_point": 12.61,
+      "confidence": "verified"
+    },
+    {
+      "beat": 10,
+      "label": "winnow_nibs",
+      "source_path": "facility-santos-chocolate-factory/IMG_2531.MOV",
+      "source_sha256": "c449251114a0b422bdb000aa4bd1d6630f0a300acc16945aaa52c1a928fb0dd4",
+      "in_point": 4.67,
+      "out_point": 8.67,
+      "confidence": "verified"
+    },
+    {
+      "beat": 11,
+      "label": "melanger",
+      "source_path": "facility-santos-chocolate-factory/IMG_2420.MOV",
+      "source_sha256": "9eadc73bccd25e1dd02cbe3be1092078e9a0082bfa256f33cef88c30a1fab740",
+      "in_point": 4.61,
+      "out_point": 8.61,
+      "confidence": "verified"
+    },
+    {
+      "beat": 12,
+      "label": "pour",
+      "source_path": "facility-santos-chocolate-factory/IMG_2481.MOV",
+      "source_sha256": "3221854bc68999a59ac788726f33395eae5cb3a95de30e1d280038183f1de9c8",
+      "in_point": 95.01,
+      "out_point": 99.01,
+      "confidence": "verified"
+    },
+    {
+      "beat": 13,
+      "label": "fridge",
+      "source_path": "facility-santos-chocolate-factory/IMG_2482.MOV",
+      "source_sha256": "06cc73a561afe8e2163dfbbb5e75f07234ab6c3fde3db110435599902308b509",
+      "in_point": 20.99,
+      "out_point": 24.99,
+      "confidence": "verified"
+    },
+    {
+      "beat": 14,
+      "label": "unmold",
+      "source_path": "facility-santos-chocolate-factory/IMG_2522.MOV",
+      "source_sha256": "8f4c6d1145313c62575176392bf141ad929f036c6b7c332209a4e7079664f6db",
+      "in_point": 52.4,
+      "out_point": 56.4,
+      "confidence": "verified"
+    }
+  ],
+  "clearance_flags": [
+    "Caption attributes cacao to Oscar's farm; cut also uses fazenda-santa-ana-bahia (drying) and facility-santos (roast..unmould). Lineage over caption.",
+    "No music clearance needed - original clip audio only."
+  ],
+  "reuse_guard": {
+    "reserved_sources": [
+      "oscar-bahia/IMG_2189.mp4",
+      "fazenda-santa-ana-bahia/IMG_8185.mp4",
+      "fazenda-santa-ana-bahia/IMG_8164.mp4",
+      "oscar-bahia/IMG_2200.mp4",
+      "fazenda-santa-ana-bahia/IMG_8156.mp4",
+      "fazenda-santa-ana-bahia/IMG_8110.mp4",
+      "cleide/IMG_4877.mp4",
+      "facility-santos-chocolate-factory/IMG_2437.MOV",
+      "facility-santos-chocolate-factory/IMG_2506.MOV",
+      "facility-santos-chocolate-factory/IMG_2531.MOV",
+      "facility-santos-chocolate-factory/IMG_2420.MOV",
+      "facility-santos-chocolate-factory/IMG_2481.MOV",
+      "facility-santos-chocolate-factory/IMG_2482.MOV",
+      "facility-santos-chocolate-factory/IMG_2522.MOV"
+    ]
+  },
+  "qc": {
+    "method": "gemini window QC on rendered master segments",
+    "beats_verified": 14,
+    "beats_total": 14,
+    "notes": "Drying re-graded per governor note: clear brown gourmet, 3/3. Pods re-picked blemish-free, 2/3 (3rd rejected for distance/shadow, not blemish)."
+  },
+  "notes": "Beat 2 in_point reconciled to 2.4s: pixel comparison of the rendered master against source frames @1.0 (diff 50.81) vs @2.4 (diff 31.84) confirms 2.4, matching cut5b which rendered the delivered master. An earlier cut5 (in_point 1.0) was superseded after its first frame read 'dark, dried or rotted'."
+}
