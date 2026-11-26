@@ -1,0 +1,124 @@
+{
+  "schema": "reel-factory/cut/v1",
+  "cut_id": "chocolate-process",
+  "variant": "agroverse",
+  "version": 5,
+  "scope": "field",
+  "title": "",
+  "notes": "",
+  "duration_seconds": 54.5,
+  "segments": [
+    {
+      "beat": 1,
+      "label": "grove_open",
+      "archive_path": "oscar-bahia/IMG_2189.mp4",
+      "in_point": 0.0,
+      "duration": 2.5,
+      "caption": "In the cacao grove"
+    },
+    {
+      "beat": 2,
+      "label": "pod_on_tree",
+      "archive_path": "fazenda-santa-ana-bahia/IMG_8185.mp4",
+      "in_point": 2.4,
+      "duration": 4.0,
+      "caption": "Pods growing on the tree"
+    },
+    {
+      "beat": 3,
+      "label": "harvest",
+      "archive_path": "fazenda-santa-ana-bahia/IMG_8164.mp4",
+      "in_point": 43.0,
+      "duration": 4.0,
+      "caption": "Clipped from the tree by hand"
+    },
+    {
+      "beat": 4,
+      "label": "break_pod",
+      "archive_path": "oscar-bahia/IMG_2200.mp4",
+      "in_point": 5.49,
+      "duration": 4.0,
+      "caption": "Cracked open by hand"
+    },
+    {
+      "beat": 5,
+      "label": "extract",
+      "archive_path": "fazenda-santa-ana-bahia/IMG_8156.mp4",
+      "in_point": 14.47,
+      "duration": 4.0,
+      "caption": "Beans and pulp scooped out"
+    },
+    {
+      "beat": 6,
+      "label": "ferment",
+      "archive_path": "fazenda-santa-ana-bahia/IMG_8110.mp4",
+      "in_point": 4.89,
+      "duration": 4.0,
+      "caption": "Fermenting in wooden boxes"
+    },
+    {
+      "beat": 7,
+      "label": "dry",
+      "archive_path": "cleide/IMG_4877.mp4",
+      "in_point": 12.0,
+      "duration": 4.0,
+      "caption": "Dried in the sun"
+    },
+    {
+      "beat": 8,
+      "label": "roast",
+      "archive_path": "facility-santos-chocolate-factory/IMG_2437.MOV",
+      "in_point": 25.37,
+      "duration": 4.0,
+      "caption": "Poured into the roaster"
+    },
+    {
+      "beat": 9,
+      "label": "winnow_in",
+      "archive_path": "facility-santos-chocolate-factory/IMG_2506.MOV",
+      "in_point": 8.61,
+      "duration": 4.0,
+      "caption": "Into the winnowing machine"
+    },
+    {
+      "beat": 10,
+      "label": "winnow_nibs",
+      "archive_path": "facility-santos-chocolate-factory/IMG_2531.MOV",
+      "in_point": 4.67,
+      "duration": 4.0,
+      "caption": "Cracked nibs come out"
+    },
+    {
+      "beat": 11,
+      "label": "melanger",
+      "archive_path": "facility-santos-chocolate-factory/IMG_2420.MOV",
+      "in_point": 4.61,
+      "duration": 4.0,
+      "caption": "Stone wheels grind the nibs"
+    },
+    {
+      "beat": 12,
+      "label": "pour",
+      "archive_path": "facility-santos-chocolate-factory/IMG_2481.MOV",
+      "in_point": 95.01,
+      "duration": 4.0,
+      "caption": "Poured into bar moulds"
+    },
+    {
+      "beat": 13,
+      "label": "fridge",
+      "archive_path": "facility-santos-chocolate-factory/IMG_2482.MOV",
+      "in_point": 20.99,
+      "duration": 4.0,
+      "caption": "Into the fridge to set"
+    },
+    {
+      "beat": 14,
+      "label": "unmold",
+      "archive_path": "facility-santos-chocolate-factory/IMG_2522.MOV",
+      "in_point": 52.4,
+      "duration": 4.0,
+      "caption": "Finished bars released"
+    }
+  ]
+}
